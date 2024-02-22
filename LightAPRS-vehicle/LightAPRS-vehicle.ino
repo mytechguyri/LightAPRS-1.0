@@ -31,9 +31,9 @@
 //#define DEVMODE // Development mode. Uncomment to enable for debugging.
 
 //****************************************************************************
-char  CallSign[7]="NOCALL"; //DO NOT FORGET TO CHANGE YOUR CALLSIGN
-int   CallNumber=9; //SSID http://www.aprs.org/aprs11/SSIDs.txt
-char  Symbol='>'; // '/>' for car, '/k' for truck, for more info : http://www.aprs.org/symbols/symbols-new.txt
+char  CallSign[7]="WA1OKB"; //DO NOT FORGET TO CHANGE YOUR CALLSIGN
+int   CallNumber=10; //SSID http://www.aprs.org/aprs11/SSIDs.txt
+char  Symbol='/<'; // '/>' for car, '/k' for truck, for more info : http://www.aprs.org/symbols/symbols-new.txt
 bool alternateSymbolTable = false ; //false = '/' , true = '\'
 
 char Frequency[9]="144.3900"; //default frequency. 144.3900 for US, 144.8000 for Europe
